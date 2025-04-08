@@ -7,5 +7,9 @@ public class GameRunner {
     }
 public void run() {
         System.out.println("Running the game " + game);
+        game.up();
+        game.down();
+        game.left();
+        game.right();    
     } 
 }
