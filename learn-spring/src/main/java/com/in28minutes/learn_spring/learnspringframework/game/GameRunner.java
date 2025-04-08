@@ -1,9 +1,9 @@
-package com.in28minutes.learnspringframework.game;
+package com.in28minutes.learn_spring.learnspringframework.game;
 
 public class GameRunner {
-    private SuperContraGame game;
-    public GameRunner(SuperContraGame superContraGame) {
-        this.game = superContraGame;
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 public void run() {
         System.out.println("Running the game " + game);
